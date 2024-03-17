@@ -1,0 +1,22 @@
+!start year 
+2013 1  1
+!end year
+2020  12 31
+!warm up days
+0
+! initial soil moisture
+7
+!SCF, the snow enlargement factor
+1.0
+!snow melting coefficient
+1.0
+!free water coefficient
+1.0
+!tension water coefficient
+1.0
+!Save the state:: 1, else: 0
+1
+!Load the state:: 1, else: 0
+0
+!rain source:: 1 ec; 2 station
+2
