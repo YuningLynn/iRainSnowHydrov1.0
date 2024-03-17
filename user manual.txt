@@ -1,0 +1,7 @@
+User Manual
+iRainSnowHydro v1.0 is a distributed integrated rainfall-runoff and snowmelt-runoff simulation model for alpine watersheds.
+(1)	Meteorological data is from the https://data.cma.cn/. Users can choose meteorological data of different study areas and temporal-spatial resolutions according to their own needs.
+(2)	Underlying surface data example are stored in iRainSnowHydrov1.0/Data/ASC_file, including 0-30cm Soil Type, 30-100cm Soil Type, DEM, Flow Accumulation Area, Freedom Water Capacity, Grid Flow Direction, Humus Soil Depth, River Channel, Runoff Distribution Ratio, Snow Depth, Tension Water Capacity, Vadose Zone Depth, and Vegetation Type. Users can preprocess their data according to the selected study area.
+(3)	 Model parameters and related databases are stored in iRainSnowHydrov1.0/Data, including CalSort_01, Datetime, Landcover, Lumpara_Station, Param_a, Param_I, Station’s location, Soiltype. Users can change the station name and location information according to their needs.
+(4)	The model’ s source code is stored in iRainSnowHydrov1.0/iRainSnowHydro_code. Users can download it and compile it in visual studio. Also, we provide a executable program in iRainSnowHydrov1.0 named iRainSnowHydro.exe.
+(5)	We also provide two configuration files in iRainSnowHydrov1.0, namely the CatID.dat and Configure.dat. Users can change their station name, start time and end time for simulation, subbasin’s number and metrological data path and some other related information in these two files.
